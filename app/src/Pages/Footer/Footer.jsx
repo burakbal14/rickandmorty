@@ -23,7 +23,7 @@ const Footer = () => {
       >
         <Flex spacing={{ base: "4", md: "5" }} bg="green.400" h="100%">
           <Stack justify="space-between" direction="row" align="center"></Stack>
-          <Text fontSize="sm" color="fg.subtle">
+          <Text userSelect="none" fontSize="sm" color="white">
             &copy; {new Date().getFullYear()} Burak Bal, All Rights Reserved
           </Text>
         </Flex>

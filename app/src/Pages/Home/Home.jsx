@@ -8,7 +8,7 @@ const Home = () => {
       <Flex>
         <Box>
           <Heading as="h2" className="home-heading">
-            Rick And Morty
+            Rick and Morty
           </Heading>
           <Text as="h3" className="home-text">
             Lorem ipsum dolor sit amet, consectedur.

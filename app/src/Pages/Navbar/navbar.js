@@ -11,7 +11,13 @@ const navbar = extendTheme({
         justify: "space-between",
         padding: "1rem",
       },
-      ".navbar-box": {
+      ".navbar-title": {
+        bg: "green.400",
+        color: "white",
+        padding: "1rem",
+        fontWeight: "bold",
+      },
+      ".navbar-button": {
         bg: "green.400",
         color: "white",
         padding: "1rem",
