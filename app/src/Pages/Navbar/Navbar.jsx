@@ -7,9 +7,10 @@ const Navbar = () => {
     <ChakraProvider theme={navbar}>
       <Box>
         <Flex
-          as="navbar-body"
+          as="navbar"
           align="center"
           justify="space-between"
+          bg="green.400"
         >
           <Box className="navbar-box">
             <Text fontSize="xl" userSelect="none">Rick and Morty</Text>

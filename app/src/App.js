@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home.jsx";
 
 // Components
 import Navbar from "./Pages/Navbar/Navbar.jsx";
+import Footer from "./Pages/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </ChakraProvider>
 
